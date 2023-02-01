@@ -1,124 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="css/styles.css"
-    />
-    <link rel="shortcut icon" href="favicon (1).ico" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
-      rel="stylesheet"
-    />
-    <title>Eliana Henderson</title>
-  </head>
-  <body>
-    <div class="top-container">
-      <img class="top-cloud" src="images/cloud.png" alt="cloud" />
-      <h1>I'm Eliana.</h1>
-      <h2>a front-end developer</h2>
-      <img class="bottom-cloud" src="images/cloud.png" alt="cloud" />
-      <img src="images/mountain.png" alt="mountain" />
-    </div>
-    <div class="middle-container">
-      <div class="profile">
-        <img
-          class="profile-img"
-          src="https://media.giphy.com/media/paTz7UZbPfTZFRYnnB/giphy.gif"
-          alt=""
-        />
-        <h2>Hello.</h2>
-        <p>
-          I am a software development student with experience in full-stack
-          development, including backend development with node.js and PHP, and
-          front-end development with HTML, CSS, and JavaScript. I have also
-          worked with frameworks such as Bootstrap and React. I will be
-          finishing my degree in the next six months and am eager to start a
-          junior role in the industry and continue learning. I am passionate
-          about technology and its impact on people's lives, and I am looking
-          for a company that values growth and development.
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <metas="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <link rel="shortcut icon" href="favicon (1).ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+    rel="stylesheet" />
+  <title>Eliana Henderson</title>
+</head>
+<header>
+  <nav class="nav-bar navbar-light navbar-expand-lg clean-navbar shadow-sm pt-5">
+    <div>
+      <h1>Eliana Henderson</h1>
+      <h2>Full Stack Developer</h2>
+      <ul class="nav justify-content-center mt-4 pb-4">
+        <li class="nav-item">
+          <a class="fs-5" href="#About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="fs-5" href="#Education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="fs-5" href="#Projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="fs-5" href="#Contact">Contact</a>
+        </li>
+      </ul>
+  </nav>
+</header>
+
+<body>
+  <div class="container-fluid">
+    <div class="profile d-flex flex-row">
+      <div class="d-flex flex-column align-items-center">
+        <img class="profile-img" id="About" src="https://media.giphy.com/media/paTz7UZbPfTZFRYnnB/giphy.gif" alt="" />
+        <h2>About Me</h2>
+        <p class="fs-5">
+          Hello! I am a <span class="key-words">software development</span> student with experience in <span
+            class="key-words">full-stack</span>
+          development using the <span class="key-words">MERN</span> (MongoDB, Express, React, Node) Tech Stack. <br />
+          <br />
+          Outside of my studies I enjoy gaming, reading, table-top board games, and paddle boarding.
+          I will be finishing my degree in the next six months and am eager to start a
+          <span class="key-words">Junior Roll</span> role in the industry and continue learning. I am <span
+            class="key-words">passionate about technology</span>
+          and its impact on people's lives. I am looking
+          for a company that values <span class="key-words">growth and development.</span>
         </p>
       </div>
-      <hr />
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img
-            class="skill-img1"
-            src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif"
-            alt=""
-          />
+    </div>
+    <hr id="Education"/>
+
+    <div>
+      <h2 class="pb-3" >Education</h2>
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-lg-4 my-3">
+            <div>
+              <h3>Degree</h3>
+              <p class="fw-bold">Associate of Applied Science</p>
+              <p>Spokane Community College - <i>June 2023</i></p>
+            </div>
+          </div>
+          <div class="col-lg-4 my-3">
+            <div>
+              <h3>Certifications</h3>
+              <p class="fw-bold">Spokane Community College</p>
+              <ul>
+                <li>Full Stack Developer</li>
+                <li>Front End Developer</li>
+                <li>Back End Developer</li>
+                <li>Computer Science</li>
+                <li>Mobile Developer</li>
+                <li>PHP Developer</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 my-5 my-md-3">
+            <div>
+              <h3>Internships</h3>
+              <p class="fw-bold">Software Developer Intern</p>
+              <p>Talos Studios, LLC</p>
+              <i>January 2023 - Ongoing</i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr id="Projects"/>
+
+    <div>
+      <h2>My Projects</h2>
+    <div class="card mb-3 project-card">
+      <img src="images/Threads.png" class="projects-card card-img-top w-75 mx-auto my-3" alt="project-img">
+      <div class="card-body">
+        <h2 class="pt-3">Threads</h2>
+        <p class="card-text p-2 fs-5">Threads is a mock ecommerce shop selling a variety of clothing and accessories. It is being developed
+          with the MERN stack. The products are stored using MongoDB populated by the Fake Store API.
+
+          I am collaborating on this project via GitHub with users pvquinn and CrankyMandaPanda. To ensure a
+          smooth development process, we are using Git Flow with at least one person approving each pull request.
+          The full repo is available below.
+
+          Threads was started in January 2023, so it is still being created. So far, I have been designing the UI
+          and building out the web-pages as React components. Our next tasks are to make React components for the
+          customer account page and start working on the back end of the site.</p>
+          <a class="btn" href="https://github.com/Inako215/Ecommerce-React">View Project</a>
+      </div>
+    </div>
+        <div class="card mb-3 project-card ">
+          <img src="images/pawfect.png" class="card-img-top w-75 mx-auto my-2" alt="...">
+          <div class="card-body">
+            <h2 class="fs-5 pt-5">Pawfect</h2>
+            <p class="card-text p-2">Pawfect is a dating site for dogs. The project is a static landing page that is completely responsive using
+              HTML, CSS, and Bootstrap. The site is hosted on GitHub Pages and is available below.
+            </p>
+              <a class="btn" href="https://inako215.github.io/pawfect-landing-page/">View Project</a>
+          </div>
+        </div>
+</div>
+    <hr id="Skills"/>
+    <div class="skills">
+      <h2 >My Skills.</h2>
+      <div class="skill-row d-flex flex-row justify-content-center">
+        <img class="skill-img1 d-flex flex-column" src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif"
+          alt="" />
+        <div class="d-flex flex-column">
           <h3>front-end Developmet</h3>
-          <p>
-            I have strong skills in front-end development, including HTML, CSS,
-            JavaScript, React, and Bootstrap. I am proficient in creating
-            visually appealing and interactive websites and have experience
-            building responsive and mobile-friendly sites. I am always looking
-            to improve my skills and stay current with modern frameworks and
-            technologies.
-          </p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Bootstrap</li>
+          </ul>
         </div>
-        <div class="skill-row">
-          <img
-            class="skill-img2"
-            src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif"
-            alt=""
-          />
+      </div>
+      <div class="skill-row d-flex flex-row justify-content-center">
+        <div class="d-flex flex-column">
           <h3>Backend Development</h3>
-          <p>
-            I am learning backend development and have a strong foundation in
-            technologies such as Node.js, PHP, and SQL. I am also familiar with
-            NoSQL databases such as MongoDB and have a basic understanding of
-            relational databases. While I am still learning and developing my
-            skills, I am confident in my ability to quickly absorb new concepts
-            and technologies.
-          </p>
+          <ul>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>MongoDB</li>
+            <li>MySQL</li>
+            <li>PHP</li>
+          </ul>
         </div>
-        <div class="skill-row">
-          <img
-            class="skill-img3"
-            src="https://media.giphy.com/media/W5qXxwQHyKklrUlusr/giphy.gif"
-            alt=""
-          />
+        <img class="skill-img2 d-flex flex-column" src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif"
+          alt="" />
+      </div>
+      <div class="d-flex flex-row justify-content-center skill-row">
+        <img class="skill-img3 d-flex flex-column" src="https://media.giphy.com/media/W5qXxwQHyKklrUlusr/giphy.gif"
+          alt="" />
+        <div class="d-flex flex-column">
           <h3>Software Development</h3>
-          <p>
-            As a software developer, I am excited to learn and grow my skills in
-            various technologies. I am currently learning Kotlin and am
-            interested in building Android apps. I am also learning about app
-            development and have a basic understanding of object-oriented
-            programming concepts. I am familiar with Git and am comfortable
-            using it for version control and collaboration.
-          </p>
+          <ul class="justify-content-start">
+            <li>Kotlin</li>
+            <li>Git</li>
+            <li>Android Development</li>
+            <li>Agile Methodologies</li>
+            <li>Object-Oriented Programming</li>
+            <li>Test-Driven Development</li>
+          </ul>
         </div>
       </div>
-      <hr />
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>Have any additional questions?</h3>
-        <p class="contact-message">
-          I would love to answer them! I can be reached via email using the
-          button below, I can also be reached via LinkedIn.
-        </p>
-        <a class="btn" href="mailto:elianalhenderson@gmail.com">CONTACT ME</a>
+    </div>
+    <hr />
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Have any additional questions?</h3>
+      <p class="contact-message">
+        I would love to answer them! I can be reached via email using the
+        button below, I can also be reached via LinkedIn.
+      </p>
+      <div class="container">
+        <form target="_blank" action="https://formsubmit.co/elianalhenderson@gmail.com" method="POST">
+          <div class="form-group">
+            <div class="row d-flex justify-content-center w-50 mx-auto">
+              <div class="col-12 my-2">
+                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+              </div>
+              <div class="col-12 my-2">
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group d-flex justify-content-center mt-2 w-50 mx-auto">
+            <textarea placeholder="Your Message" class="form-control" name="message" rows="8" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-lg btn-dark btn-block mt-5">Contact Me</button>
+        </form>
       </div>
     </div>
-  </body>
-  <footer>
-    <div class="bottom-container">
-      <a
-        class="footer-link"
-        href="https://www.linkedin.com/in/eliana-henderson-556b36214/"
-        >LinkedIn</a
-      >
-      <a class="footer-link" href="https://github.com/Inako215">GitHub</a>
-      <a class="footer-link" href="https://www.appbrewery.co/">Resume</a>
-      <p class="footer-copyright">©2022 Eliana Henderson.</p>
-    </div>
-  </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+<footer>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/eliana-henderson-556b36214/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/Inako215">GitHub</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Resume</a>
+    <p class="footer-copyright">©2022 Eliana Henderson.</p>
+  </div>
+</footer>
+
 </html>
