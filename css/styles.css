@@ -38,7 +38,7 @@ hr {
   width: 10%;
   border: 15px dotted;
   border-style: none none dotted;
-  color: #eaf6f6;
+  color: #66bfbf;
 }
 
 body {
@@ -64,16 +64,14 @@ body {
   padding: 50px 0px 20px;
 }
 
-/* .footer-link {
-  position: relative;
-  top: 50px;
-  color: #11999e;
+.footer-link {
+  color: #eaf6f6;
   margin: 20px;
   text-decoration: none;
   font-size: 115%;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-} */
+}
 
 .footer-copyright {
   color: #eaf6f6;
@@ -101,6 +99,10 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+li {
+  font-family: "Montserrat", sans-serif;
 }
 
 .skill-row {
@@ -166,4 +168,34 @@ ul {
 .profile-img {
   width: 40%;
   border-radius: 75%;
+}
+
+/* create card styling for education cards */
+.education-card {
+  width: 40%;
+  margin: 40px auto;
+  background-color: #eaf6f6;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.education-container {
+  margin: 100px auto;
+}
+
+.key-words {
+  font-weight: bold;
+  color: #11999e;
+}
+
+.nav-bar {
+  background-color: #e4f9f5;
+}
+
+.project-card {
+  width: 80%;
+  margin: 40px auto;
+  background-color: #faf9f6;
+  padding: 20px;
+  border: none
 }
