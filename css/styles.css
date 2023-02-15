@@ -155,16 +155,6 @@ li {
   margin: 5rem auto;
 }
 
-.contact-message {
-  width: 40%;
-  margin: 40px auto 60px;
-}
-
-.profile {
-  width: 35%;
-  margin: auto;
-}
-
 .profile-img {
   width: 40%;
   border-radius: 75%;
@@ -193,7 +183,6 @@ li {
 }
 
 .project-card {
-  width: 80%;
   margin: 40px auto;
   background-color: #faf9f6;
   padding: 20px;
